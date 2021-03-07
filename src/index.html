@@ -1,21 +1,136 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <img src="./assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-    <h1 class="uoc-title">  <i class="fas fa-university"></i>Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Development at the Universitat Oberta de
-      Catalunya.
-    </p>
-    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <title>Ruben CV</title>
+</head>
+
+<body>
+  <header>
+    <img src="./assets/images/cv.jpg" alt="Imagen de perfil" class="imagen__perfil">
+    <div class="header__title">
+      <h1>Rubén Puerta</h1>
+      <div>
+        <span class="line">.</span>
+        <p>Web developer</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <aside>
+      <section class="aside">
+        <h2>Personal Details</h2>
+        <dl>
+          <dt><i class="far fa-flag"></i> Nationality :</dt>
+          <dd>Spain</dd>
+          <dt><i class="fas fa-home"></i> Current Location:</dt>
+          <dd>Bratislava, Slovakia</dd>
+          <dt><i class="fas fa-envelope-square"></i> Email:</dt>
+          <dd>rubenpuerta89@gmail.com</dd>
+          <dt><i class="fas fa-phone"></i> Phone:</dt>
+          <dd>(+421)951529868</dd>
+          <dt><i class="fab fa-linkedin"></i> Linkedin</dt>
+          <dd><a href="https://www.linkedin.com/in/rubenpuerta/?locale=en_US" target="_blank">/rubenpuerta</a></dd>
+          <dt><i class="fab fa-github-square"></i> GitHub:</dt>
+          <dd><a href="https://github.com/Neburniek" target="_blank">/Neburniek</a></dd>
+        </dl>
+      </section>
+      <section class="aside">
+        <h2>Tech</h2>
+        <dl>
+          <dt>Languages:</dt>
+          <dd>HTML, CSS, JavaScript, PHP,
+            Mysql, typescript.</dd>
+          <dt>Back-end Frameworks:</dt>
+          <dd>Express.js, CodeIgniter, Drupal, Wordpress, Laravel.</dd>
+          <dt>Front-end Frameworks</dt>
+          <dd>Bootstrap</dd>
+          <dt>Databases:</dt>
+          <dd>MongoDB, MariaDB.</dd>
+          <dt>Other:</dt>
+          <dd>Jest, Git, Parcel, NodeJS</dd>
+        </dl>
+      </section>
+      <section class="aside">
+        <h2>Portfolio</h2>
+        <p>Some projects may need time to load due
+          to loading restrictions on free cloud
+          service accounts (30s)
+        </p>
+        <dl>
+          <dt><a href="https://addons.mozilla.org/es/firefox/addon/templateasy/" target="_blank">Templateasy</a></dt>
+          <dd>Firefox Addon to manage your own tailormade templates
+          </dd>
+          <dt><a href="https://thawing-reaches-42644.herokuapp.com/" target="_blank">Hotel Finder</a> - <a
+              href="https://github.com/Neburniek/HotelFinder" target="_blank">Repository</a></dt>
+          <dd>Log in and log out user account system, MongoDB, Express.js, Stripe Payment System.</dd>
+          <dt><a href="https://competent-lamarr-8bb366.netlify.app/" target="_blank">Chuck Palahniuk fan site</a> - <a
+              href="https://github.com/Neburniek/WriterSite" target="_blank">Repository</a></dt>
+          <dd>Animations, Parcel, Responsive Images.
+          </dd>
+        </dl>
+      </section>
+    </aside>
+
+    <section>
+      <h2>Education</h2>
+      <article>
+        <h3>Master's Degree in Web App and Website Development</h3>
+        <p>Universitat Oberta de Catalunya</p>
+        <p><time datetime="2020-02">Feb 2020</time> - Currently </p>
+      </article>
+      <article>
+        <h3>Bachelor's Degree in Tourism</h3>
+        <p>Universitat de Girona</p>
+        <p><time datetime="2011-09"> Sep 2011</time> - <time datetime="2015-06">June 2015</time></p>
+      </article>
+      <article>
+        <h3>Higher Training in Marketing and Business Management</h3>
+        <p>Santa Pau Pifma</p>
+        <p><time datetime="2010-09">Sep 2010</time> - <time datetime="2011-07">July 2011</time></p>
+      </article>
+
+    </section>
+    <section>
+      <h2>Work Experience</h2>
+      <article>
+        <h3>Onboarding Advertisement Specialist</h3>
+        <p>Amazon</p>
+        <p><time datetime="2021-01">January 2021</time>- Currently</p>
+      </article>
+      <article>
+        <h3>Bilingual Customer Service Specialist (English and Spanish)</h3>
+        <p>Booking.com</p>
+        <p><time datetime="2016-04">April 2016</time> - <time datetime="2020-08">August 2020</time></p>
+      </article>
+      <article>
+        <h3>Customer Coordinator at Mobile World Congress</h3>
+        <p>TAIS</p>
+        <p>Mobile World Congress event year 2016</p>
+      </article>
+      <article>
+        <h3>Hotel Bartender</h3>
+        <p>Catalonia Hotels and Resorts</p>
+        <p><time datetime="2015-06">June 2015</time> - <time datetime="2016-01">January 2016</time></p>
+      </article>
+      <article>
+        <h3>Hospitality and Tourism Internship</h3>
+        <p>Hôtel Château du Boisniard (5*)</p>
+        <p><time datetime="2013-06">June 2013</time> - <time datetime="2013-08">August 2013</time></p>
+      </article>
+      <article>
+        <h3>Service Crew Front / Counter</h3>
+        <p>Establiments Viena</p>
+        <p><time datetime="2010-05">May 2010</time> - <time datetime="2013-05">May 2013</time></p>
+      </article>
+    </section>
+
+  </main>
+  <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
 </html>
