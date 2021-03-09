@@ -11,23 +11,22 @@ body {
 
 // header
 header{
-  // positioning
+
   position: relative;
-  // box model
+
   display: flex;
   width:100%;
-  // visual
+
   background-color: $rpc-aside-bg;
 
      .header__title{
 
-      // box model
       align-items: center;
       justify-content: center;
       width: 100%;
     
       margin:auto;
-      // typography
+
       line-height: 1px;
       color: $rpc-aside-color;
       text-align: center;
@@ -36,20 +35,18 @@ header{
           margin-bottom: 1px;
         }
         div{
-              
-          // box model
+    
           display:inline-flex;
            
           .line {
-            // positioning
+   
             position:relative;
             top:12px;
-          // box model
+    
           width: 90px;
           height: 10px;
 
-     
-          // visual
+
           background-color: $rpc-aside-color;
     
           }
@@ -58,12 +55,11 @@ header{
     
     .imagen__perfil {
 
-    // box model
     display: block;
     width: 100px;
     height: auto;
     margin: 20px;
-      // visual
+
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
   
    
@@ -76,27 +72,27 @@ header{
 // Side Section
 
 aside{
-  // positioning
+
   position: relative;
-  // box model
+ 
   padding: 10px;
-  // typography
+
   color: $rpc-aside-color;
-  // visual
+
   background-color: $rpc-aside-bg;
   a{
     color:$rpc-aside-color;
   }
   h2{
-    // positioning
+
     position:relative;
     left: -10px;
-  // box model
+
   width: 100vw;
   padding-left: 10px;
-  // typography
+
   font-size: 20px;
-  // visual
+
   background-color: darken($rpc-aside-bg,5%);
   }
   
